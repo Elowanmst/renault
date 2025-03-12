@@ -8,6 +8,8 @@
     <meta name="keywords" content="garage, réparations, vente de véhicule, véhicule, dacia, renault">
     <meta name="author" content="EC-Craftt">
     <title>Garage Renault</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/index.js" defer></script>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <style>
@@ -17,6 +19,19 @@
 </head>
 
 <body>  
+    <header>
+        <div id="navbar-container"></div>
+        <script>
+          fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => document.getElementById("navbar-container").innerHTML = data);
+        </script>
+
+        <div class="hero">
+            <h1 class="titre">RENAULT | DACIA</h1>
+            <p class="textsous">📍 Saint Gilles Croix de Vie</p>
+        </div>
+    </header>
 
 
 </body>
