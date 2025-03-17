@@ -13,9 +13,8 @@
         <ul class="nav-links">
             <li><a href="#top">Accueil</a></li>
             <li><a href="#solution">Nos services</a></li>
-            <li><a href="#projects">Nos réalisations</a></li>
+            <li><a href="#"></a></li>
             <li><a href="#contact">Contact/RDV</a></li>
-            <li><a class="glow" href="devis.html">demande de devis</a></li>
         </ul>
 
         <div class="burger">

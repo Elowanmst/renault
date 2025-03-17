@@ -19,14 +19,13 @@
 </head>
 
 <body>  
-    <header>
-        <div id="navbar-container"></div>
+<div id="navbar-container"></div>
         <script>
           fetch("navbar.html")
             .then(response => response.text())
             .then(data => document.getElementById("navbar-container").innerHTML = data);
         </script>
-
+    <header>
         <div class="hero">
             <h1 class="titre">RENAULT | DACIA</h1>
             <p class="textsous">📍 Saint Gilles Croix de Vie</p>
