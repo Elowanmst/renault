@@ -11,10 +11,12 @@
 <body>
 
 <header>
-        <div class="hero">
+    <div class="hero">
+        <div class="petit-carre">
             <h1 class="titre">RENAULT | DACIA</h1>
             <p class="textsous">📍 Saint Gilles Croix de Vie</p>
         </div>
+    </div>
 </header>
 
 </body>
