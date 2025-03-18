@@ -35,7 +35,7 @@
         <ul class="nav-links list">
             <li><a href="#top">Accueil</a></li>
             <li><a href="#service">Nos services</a></li>
-            <li><a href="#horaire">Horaires</a></li>
+            <li><a href="#garage">Votre garage</a></li>
             <li><a href="#recrutement">Recrutement</a></li>
             <li><a href="#loc">Nous trouvez</a></li>
             <li><a href="#contact">Contact</a></li>
