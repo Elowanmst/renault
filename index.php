@@ -11,6 +11,7 @@
     <script type="text/javascript" src="/JS/index.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/gif" href="image/favicon-renault.svg"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
@@ -36,6 +37,55 @@
 
     <section id="service">
         <h2>Nos services</h2>
+        <div class="solution-content">
+            <div class="solution-text">
+                <h3 class="wh">NOS SERVICES</h3>
+            </div>
+            
+            <div class="solution-cards">
+                <div class="card">
+                    <h4>Vidange</h4>
+                    <p>sous service</p>
+
+                    <p>vous faite quoi a la vidange ?</p>
+                    <ul class="custom-list">
+                        <li>?</li>
+                        <li>?</li>
+                        <li>?</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Entretiens</h4>
+                    <p>sous service</p>
+                    <p>c'est quoi un entretiens ?</p>
+                    <ul class="custom-list">
+                        <li>?</li>
+                        <li>?</li>
+                        <li>?</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>reparation en tout genre</h4>
+                    <p>sous service</p>
+                    <p>cest quoi une reparation</p>
+                    <ul class="custom-list">
+                        <li>?</li>
+                        <li>?</li>
+                        <li>?</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>?</h4>
+                    <p>?</p>
+                    <p>?</p>
+                    <ul class="custom-list">
+                        <li>?</li>
+                        <li>A?</li>
+                        <li>?</li>
+                    </ul>
+                </div>
+            </div>               
+        </div>
 
     </section>
 
