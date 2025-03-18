@@ -13,7 +13,9 @@
 <header>
     <div class="hero">
         <div class="petit-carre">
-            <h1 class="titre">RENAULT | DACIA</h1>
+            <h1 class="titre">
+                <img src="image/renault-dacia.png" alt="Dacia Logo" class="logo">
+            </h1>
             <p class="textsous">📍 Saint Gilles Croix de Vie</p>
         </div>
     </div>

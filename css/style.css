@@ -18,11 +18,11 @@ html, body {
     color: rgb(255, 255, 255);
     padding: 300px 0 300px 0;
     text-align: center;
-    background-image: url(/image/devanture.jpg);
+    background-image: url(/image/devanture-color.jpg);
     background-size: 100% 100%; 
 }
 .petit-carre{
-    background-color: rgba(0, 0, 0, 0.724);
+    background-color: rgba(255, 255, 255, 0.611);
     padding: 10px 15px;
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.5);
     list-style: none;
@@ -34,6 +34,25 @@ html, body {
     height: 200px;
     margin : 0 auto;
 }
+.titre {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.textsous{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 400px; /* Ajustez la taille des logos selon vos besoins */
+    height: auto;
+    object-fit: contain;  
+}
+
 
 
 /*nav bar*/
@@ -51,18 +70,18 @@ html, body {
     justify-content: space-between;
     align-items: center;
     transition: 0.3s ease-out;
-    backdrop-filter: blur(8px) brightness(1.2);
-    -webkit-backdrop-filter: blur(8px) brightness(1.2);
+    /* backdrop-filter: blur(8px) brightness(1.2);
+    -webkit-backdrop-filter: blur(8px) brightness(1.2); */
     text-shadow: 0 0 0px rgba(0,0,0,0.5);
     color: white;
     font-size: 16px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)); /* Gradient noir transparent */
   }
   
-  nav.mask {
+ /* nav.mask {
     mask-image: linear-gradient(black 70%, transparent);
     -webkit-mask-image: linear-gradient(black 70%, transparent);
-  }
+  } */
   
   nav .nav-title {
     font-size: 24px;
@@ -84,7 +103,7 @@ html, body {
     color: white;
     /* font-weight: bold; */
     padding: 10px 15px;
-    transition: background 0.3s ease;
+    /* transition: background 0.3s ease; */
   }
   
   nav .nav-links li a:hover {
@@ -118,9 +137,5 @@ html, body {
     display: flex;
   }
   
-  img {
-    width: 100%;
-    min-height: 200vh;
-    object-fit: cover;
-  }
+ 
 
